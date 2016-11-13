@@ -5,12 +5,21 @@ Vaughan Young's Game Engine (VYGE) and FPS game made ready for building on recen
 <p align="center"><img src="https://github.com/matt77hias/VYGE/blob/master/res/FPS.png"></p>
 
 ## Development
-* **Platform**: Windows API + DirectX 9 (only 32 Bit)
+* **Platform**: (minimum) Windows XP (Windows API + DirectX 9) (only 32 Bit)
 * **Compiler**: MSVC++ 14.0
 * **IDE**: Visual Studio 2015
 
-## Dependencies
-* Microsoft DirectX 9.0 SDK (October 2004)
+## Before bulding
+1. Install [Microsoft DirectX SDK (June 2010)](https://www.microsoft.com/en-us/download/details.aspx?id=6812). I tested with Microsoft DirectX 9.0 SDK (October 2004) which does not seem to be directly available from Microsoft anymore. (I still have an installer but unfortunately the file is too big to upload to Github.)
+2. Make sure the environment variable `DXSDK_DIR` is set to the installation directory of the DirectX SDK.
+  1. Go to `This PC`
+  2. Right click
+  3. Select `Properties`
+  4. Select `Advanced system settings`
+  5. Click on the `Environment Variables` button
+  6. Look for `DXSDK_DIR` in the list of `System Variables`
+  
+**Note**: you need to position the Assets directory in your execution directory to be able to play the game. In the current setup, you can play the FPS game by running the debug/release `FPS.exe` from the directory containing the debug/release `FPS.exe` (e.g. double clicking `FPS.exe`). To be able to run the debug/release `FPS.exe` from the Visual Studio IDE you need to add the Assets directory as well to the directory containing `FPS.vcxproj`.
 
 ## Bibliography
 YOUNG V.: Programming a Multiplayer FPS in DirectX, 1st edition, Game Development Series, Charles River Media, Hingham, Massachusetts, USA, 2005.
