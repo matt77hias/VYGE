@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VYGE\src\AnimatedObject.h" />
+    <ClInclude Include="VYGE\src\BoundingVolume.h" />
+    <ClInclude Include="VYGE\src\CollisionDetection.h" />
+    <ClInclude Include="VYGE\src\DeviceEnumeration.h" />
+    <ClInclude Include="VYGE\src\Engine.h" />
+    <ClInclude Include="VYGE\src\Font.h" />
+    <ClInclude Include="VYGE\src\Geometry.h" />
+    <ClInclude Include="VYGE\src\Input.h" />
+    <ClInclude Include="VYGE\src\LinkedList.h" />
+    <ClInclude Include="VYGE\src\Material.h" />
+    <ClInclude Include="VYGE\src\Mesh.h" />
+    <ClInclude Include="VYGE\src\Network.h" />
+    <ClInclude Include="VYGE\src\RenderCache.h" />
+    <ClInclude Include="VYGE\src\Resource.h" />
+    <ClInclude Include="VYGE\src\ResourceManagement.h" />
+    <ClInclude Include="VYGE\src\SceneManager.h" />
+    <ClInclude Include="VYGE\src\SceneObject.h" />
+    <ClInclude Include="VYGE\src\Scripting.h" />
+    <ClInclude Include="VYGE\src\SoundSystem.h" />
+    <ClInclude Include="VYGE\src\SpawnerObject.h" />
+    <ClInclude Include="VYGE\src\State.h" />
+    <ClInclude Include="VYGE\src\ViewFrustum.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VYGE\src\AnimatedObject.cpp" />
+    <ClCompile Include="VYGE\src\BoundingVolume.cpp" />
+    <ClCompile Include="VYGE\src\DeviceEnumeration.cpp" />
+    <ClCompile Include="VYGE\src\Engine.cpp" />
+    <ClCompile Include="VYGE\src\Font.cpp" />
+    <ClCompile Include="VYGE\src\Input.cpp" />
+    <ClCompile Include="VYGE\src\Material.cpp" />
+    <ClCompile Include="VYGE\src\Mesh.cpp" />
+    <ClCompile Include="VYGE\src\Network.cpp" />
+    <ClCompile Include="VYGE\src\RenderCache.cpp" />
+    <ClCompile Include="VYGE\src\SceneManager.cpp" />
+    <ClCompile Include="VYGE\src\SceneObject.cpp" />
+    <ClCompile Include="VYGE\src\Scripting.cpp" />
+    <ClCompile Include="VYGE\src\SoundSystem.cpp" />
+    <ClCompile Include="VYGE\src\SpawnerObject.cpp" />
+    <ClCompile Include="VYGE\src\State.cpp" />
+    <ClCompile Include="VYGE\src\ViewFrustum.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B605485A-8E8A-494A-962E-E64282D815AF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>VYGE</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(ProjectName)\bin\x86\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectName)\tmp\x86\$(Configuration)\</IntDir>
+    <IncludePath>$(DXSDK_DIR)Include\;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(ProjectName)\bin\x86\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectName)\tmp\x86\$(Configuration)\</IntDir>
+    <IncludePath>$(DXSDK_DIR)Include\;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>$(DXSDK_DIR)Lib\d3dx9.lib;$(DXSDK_DIR)Lib\d3d9.lib;$(DXSDK_DIR)Lib\dxguid.lib;$(DXSDK_DIR)Lib\dinput8.lib;legacy_stdio_definitions.lib;winmm.lib</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>$(DXSDK_DIR)Lib\d3dx9.lib;$(DXSDK_DIR)Lib\d3d9.lib;$(DXSDK_DIR)Lib\dxguid.lib;$(DXSDK_DIR)Lib\dinput8.lib;legacy_stdio_definitions.lib;winmm.lib</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
