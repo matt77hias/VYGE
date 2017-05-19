@@ -21,7 +21,7 @@ Vaughan Young's Game Engine (VYGE) and FPS game made ready for building on recen
   5. Click on the `Environment Variables` button
   6. Look for `DXSDK_DIR` in the list of `System Variables`
   
-**Note**: you need to position the Assets directory in your execution directory to be able to play the game. In the current setup, you can play the FPS game by running the debug/release `FPS.exe` from the directory containing the debug/release `FPS.exe` (e.g. double clicking `FPS.exe`). To be able to run the debug/release `FPS.exe` from the Visual Studio IDE you need to add the Assets directory as well to the directory containing `FPS.vcxproj`.
+**Note**: you need to position the Assets directory in your execution directory to be able to play the game.
 
 ## Bibliography
 YOUNG V.: Programming a Multiplayer FPS in DirectX, 1st edition, Game Development Series, Charles River Media, Hingham, Massachusetts, USA, 2005.
