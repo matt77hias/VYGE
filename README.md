@@ -2,7 +2,7 @@
 
 ## About
 Vaughan Young's Game Engine (VYGE) and FPS game made ready for building on recent Visual Studio 2015.
-<p align="center"><img src="https://github.com/matt77hias/VYGE/blob/master/res/FPS.png"></p>
+<p align="center"><img src="res/FPS.png"></p>
 
 ## Development
 * **Platform**: (minimum) Windows XP (Windows API + DirectX 9) (only 32 Bit)
