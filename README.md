@@ -1,7 +1,7 @@
 # VYGE
 
 ## About
-Vaughan Young's Game Engine (VYGE) and FPS game made ready for building on recent Visual Studio 2015.
+Vaughan Young's Game Engine (VYGE) and FPS game made ready for building on recent Visual Studio 2017.
 <p align="center"><img src="res/FPS.png"></p>
 
 ## Development
