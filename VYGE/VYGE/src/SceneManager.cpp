@@ -184,7 +184,7 @@ void SceneManager::LoadScene( char *name, char *path )
 			strcat( name, ".txt" );
 
 			// Check if it is a player spawn point.
-			if( stricmp( name, "player.txt" ) == 0 )
+			if( _stricmp( name, "player.txt" ) == 0 )
 			{
 				// Get the name of the player spawn point's radius frame.
 				char *radiusName = new char[strlen( firstDash ) + 8];
@@ -196,7 +196,7 @@ void SceneManager::LoadScene( char *name, char *path )
 				Frame *radiusFrame = frames->GetFirst();
 				while( radiusFrame != NULL )
 				{
-					if( stricmp( radiusFrame->Name, radiusName ) == 0 )
+					if( _stricmp( radiusFrame->Name, radiusName ) == 0 )
 						break;
 
 					radiusFrame = frames->GetNext( radiusFrame );
