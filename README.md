@@ -1,9 +1,3 @@
-[![Build status][s1]][av]
-
-[s1]: https://ci.appveyor.com/api/projects/status/s3udoickye2rkrne?svg=true
-
-[av]: https://ci.appveyor.com/project/matt77hias/VYGE
-
 # VYGE
 
 ## About
