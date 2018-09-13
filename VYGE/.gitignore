@@ -20,7 +20,6 @@ x86/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
-Shaders/src/*/
 
 ###############################################################################
 # Visual Studio Cache/Options Directory

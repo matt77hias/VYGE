@@ -19,10 +19,6 @@
 *.cc		text eol=crlf
 *.cpp		text eol=crlf
 
-# Shader Files
-*.hlsl		text eol=crlf
-*.hlsli		text eol=crlf
-
 # Resource Files
 *.rc        text eol=crlf
 
