@@ -21,7 +21,7 @@ Vaughan Young's Game Engine (VYGE) and FPS game made ready for building on recen
   5. Click on the `Environment Variables` button
   6. Add `DXSDK_DIR9` in the list of `System Variables` and set it to the installation directory of the DirectX SDK.
   
-**Note**: you need to position the Assets directory in your execution directory to be able to play the game.
+**Note**: you need to position the *Assets* directory in your execution directory to be able to play the game. Make sure the .txt files have CRLF (Windows) instead of LF (Unix) line endings!
 
 ## Bibliography
 YOUNG V.: Programming a Multiplayer FPS in DirectX, 1st edition, Game Development Series, Charles River Media, Hingham, Massachusetts, USA, 2005.
