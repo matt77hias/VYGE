@@ -6,8 +6,8 @@ Vaughan Young's Game Engine (VYGE) and FPS game made ready for building on recen
 
 ## Development
 * **Platform**: Windows 10 32 Bit (Windows API + DirectX 9)
-* **Compiler**: MSVC++ 15.9.11
-* **IDE**: Visual Studio 2017
+* **Compiler**: MSVC++ 16.0.0
+* **IDE**: Visual Studio 2019
 
 **Note**: Building the code for 64 Bit results in some pointer conversions between 32 Bit primitives and 64 Bit pointers which is dangerous. To avoid these issues and since I do not want to modify the original code (to keep it as a reference), I removed the 64 Bit build completely from the solution.
 
