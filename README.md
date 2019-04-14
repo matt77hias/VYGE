@@ -6,7 +6,7 @@ Vaughan Young's Game Engine (VYGE) and FPS game made ready for building on recen
 
 ## Development
 * **Platform**: Windows 10 32 Bit (Windows API + DirectX 9)
-* **Compiler**: MSVC++ 15.9.2
+* **Compiler**: MSVC++ 15.9.11
 * **IDE**: Visual Studio 2017
 
 **Note**: Building the code for 64 Bit results in some pointer conversions between 32 Bit primitives and 64 Bit pointers which is dangerous. To avoid these issues and since I do not want to modify the original code (to keep it as a reference), I removed the 64 Bit build completely from the solution.
@@ -21,7 +21,7 @@ Vaughan Young's Game Engine (VYGE) and FPS game made ready for building on recen
   5. Click on the `Environment Variables` button
   6. Add `DXSDK_DIR9` in the list of `System Variables` and set it to the installation directory of the DirectX SDK.
   
-**Note**: you need to position the Assets directory in your execution directory to be able to play the game.
+**Note**: you need to position the *Assets* directory in your execution directory to be able to play the game. Make sure the .txt files have `CRLF` (Windows) instead of `LF` (Unix) line endings!
 
 ## Bibliography
 YOUNG V.: Programming a Multiplayer FPS in DirectX, 1st edition, Game Development Series, Charles River Media, Hingham, Massachusetts, USA, 2005.
