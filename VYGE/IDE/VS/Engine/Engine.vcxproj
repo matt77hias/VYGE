@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Code\Engine\AnimatedObject.h" />
+    <ClInclude Include="..\..\..\Code\Engine\BoundingVolume.h" />
+    <ClInclude Include="..\..\..\Code\Engine\CollisionDetection.h" />
+    <ClInclude Include="..\..\..\Code\Engine\DeviceEnumeration.h" />
+    <ClInclude Include="..\..\..\Code\Engine\Engine.h" />
+    <ClInclude Include="..\..\..\Code\Engine\Font.h" />
+    <ClInclude Include="..\..\..\Code\Engine\Geometry.h" />
+    <ClInclude Include="..\..\..\Code\Engine\Input.h" />
+    <ClInclude Include="..\..\..\Code\Engine\LinkedList.h" />
+    <ClInclude Include="..\..\..\Code\Engine\Material.h" />
+    <ClInclude Include="..\..\..\Code\Engine\Mesh.h" />
+    <ClInclude Include="..\..\..\Code\Engine\Network.h" />
+    <ClInclude Include="..\..\..\Code\Engine\RenderCache.h" />
+    <ClInclude Include="..\..\..\Code\Engine\Resource.h" />
+    <ClInclude Include="..\..\..\Code\Engine\ResourceManagement.h" />
+    <ClInclude Include="..\..\..\Code\Engine\SceneManager.h" />
+    <ClInclude Include="..\..\..\Code\Engine\SceneObject.h" />
+    <ClInclude Include="..\..\..\Code\Engine\Scripting.h" />
+    <ClInclude Include="..\..\..\Code\Engine\SoundSystem.h" />
+    <ClInclude Include="..\..\..\Code\Engine\SpawnerObject.h" />
+    <ClInclude Include="..\..\..\Code\Engine\State.h" />
+    <ClInclude Include="..\..\..\Code\Engine\ViewFrustum.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Code\Engine\AnimatedObject.cpp" />
+    <ClCompile Include="..\..\..\Code\Engine\BoundingVolume.cpp" />
+    <ClCompile Include="..\..\..\Code\Engine\DeviceEnumeration.cpp" />
+    <ClCompile Include="..\..\..\Code\Engine\Engine.cpp" />
+    <ClCompile Include="..\..\..\Code\Engine\Font.cpp" />
+    <ClCompile Include="..\..\..\Code\Engine\Input.cpp" />
+    <ClCompile Include="..\..\..\Code\Engine\Material.cpp" />
+    <ClCompile Include="..\..\..\Code\Engine\Mesh.cpp" />
+    <ClCompile Include="..\..\..\Code\Engine\Network.cpp" />
+    <ClCompile Include="..\..\..\Code\Engine\RenderCache.cpp" />
+    <ClCompile Include="..\..\..\Code\Engine\SceneManager.cpp" />
+    <ClCompile Include="..\..\..\Code\Engine\SceneObject.cpp" />
+    <ClCompile Include="..\..\..\Code\Engine\Scripting.cpp" />
+    <ClCompile Include="..\..\..\Code\Engine\SoundSystem.cpp" />
+    <ClCompile Include="..\..\..\Code\Engine\SpawnerObject.cpp" />
+    <ClCompile Include="..\..\..\Code\Engine\State.cpp" />
+    <ClCompile Include="..\..\..\Code\Engine\ViewFrustum.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B605485A-8E8A-494A-962E-E64282D815AF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Properties\x86_Debug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Properties\x86_Release.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

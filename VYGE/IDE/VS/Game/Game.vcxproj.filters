@@ -15,59 +15,59 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FPS\src\Bullet.h">
+    <ClInclude Include="..\..\..\Code\Game\GameMaterial.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FPS\src\Game.h">
+    <ClInclude Include="..\..\..\Code\Game\Main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FPS\src\GameMaterial.h">
+    <ClInclude Include="..\..\..\Code\Game\Menu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FPS\src\Main.h">
+    <ClInclude Include="..\..\..\Code\Game\PlayerManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FPS\src\Menu.h">
+    <ClInclude Include="..\..\..\Code\Game\PlayerObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FPS\src\PlayerManager.h">
+    <ClInclude Include="..\..\..\Code\Game\Weapon.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FPS\src\PlayerObject.h">
+    <ClInclude Include="..\..\..\Code\Game\Bullet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FPS\src\Weapon.h">
+    <ClInclude Include="..\..\..\Code\Game\Game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FPS\src\Bullet.cpp">
+    <ClCompile Include="..\..\..\Code\Game\GameMaterial.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FPS\src\Game.cpp">
+    <ClCompile Include="..\..\..\Code\Game\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FPS\src\GameMaterial.cpp">
+    <ClCompile Include="..\..\..\Code\Game\Menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FPS\src\Main.cpp">
+    <ClCompile Include="..\..\..\Code\Game\PlayerManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FPS\src\Menu.cpp">
+    <ClCompile Include="..\..\..\Code\Game\PlayerObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FPS\src\PlayerManager.cpp">
+    <ClCompile Include="..\..\..\Code\Game\Weapon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FPS\src\PlayerObject.cpp">
+    <ClCompile Include="..\..\..\Code\Game\Bullet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FPS\src\Weapon.cpp">
+    <ClCompile Include="..\..\..\Code\Game\Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="VYGE\src\Resource.rc">
+    <ResourceCompile Include="..\..\..\Code\Engine\Resource.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>

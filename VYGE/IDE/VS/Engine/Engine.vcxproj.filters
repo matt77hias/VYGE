@@ -15,123 +15,123 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="VYGE\src\AnimatedObject.h">
+    <ClInclude Include="..\..\..\Code\Engine\SpawnerObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\BoundingVolume.h">
+    <ClInclude Include="..\..\..\Code\Engine\State.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\CollisionDetection.h">
+    <ClInclude Include="..\..\..\Code\Engine\ViewFrustum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\DeviceEnumeration.h">
+    <ClInclude Include="..\..\..\Code\Engine\AnimatedObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\Engine.h">
+    <ClInclude Include="..\..\..\Code\Engine\BoundingVolume.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\Font.h">
+    <ClInclude Include="..\..\..\Code\Engine\CollisionDetection.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\Geometry.h">
+    <ClInclude Include="..\..\..\Code\Engine\DeviceEnumeration.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\Input.h">
+    <ClInclude Include="..\..\..\Code\Engine\Engine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\LinkedList.h">
+    <ClInclude Include="..\..\..\Code\Engine\Font.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\Material.h">
+    <ClInclude Include="..\..\..\Code\Engine\Geometry.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\Mesh.h">
+    <ClInclude Include="..\..\..\Code\Engine\Input.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\Network.h">
+    <ClInclude Include="..\..\..\Code\Engine\LinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\RenderCache.h">
+    <ClInclude Include="..\..\..\Code\Engine\Material.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\Resource.h">
+    <ClInclude Include="..\..\..\Code\Engine\Mesh.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\ResourceManagement.h">
+    <ClInclude Include="..\..\..\Code\Engine\Network.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\SceneManager.h">
+    <ClInclude Include="..\..\..\Code\Engine\RenderCache.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\SceneObject.h">
+    <ClInclude Include="..\..\..\Code\Engine\Resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\Scripting.h">
+    <ClInclude Include="..\..\..\Code\Engine\ResourceManagement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\SoundSystem.h">
+    <ClInclude Include="..\..\..\Code\Engine\SceneManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\SpawnerObject.h">
+    <ClInclude Include="..\..\..\Code\Engine\SceneObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\State.h">
+    <ClInclude Include="..\..\..\Code\Engine\Scripting.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VYGE\src\ViewFrustum.h">
+    <ClInclude Include="..\..\..\Code\Engine\SoundSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="VYGE\src\AnimatedObject.cpp">
+    <ClCompile Include="..\..\..\Code\Engine\Font.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VYGE\src\BoundingVolume.cpp">
+    <ClCompile Include="..\..\..\Code\Engine\Input.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VYGE\src\DeviceEnumeration.cpp">
+    <ClCompile Include="..\..\..\Code\Engine\Material.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VYGE\src\Engine.cpp">
+    <ClCompile Include="..\..\..\Code\Engine\Mesh.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VYGE\src\Font.cpp">
+    <ClCompile Include="..\..\..\Code\Engine\Network.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VYGE\src\Input.cpp">
+    <ClCompile Include="..\..\..\Code\Engine\RenderCache.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VYGE\src\Material.cpp">
+    <ClCompile Include="..\..\..\Code\Engine\SceneManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VYGE\src\Mesh.cpp">
+    <ClCompile Include="..\..\..\Code\Engine\SceneObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VYGE\src\Network.cpp">
+    <ClCompile Include="..\..\..\Code\Engine\Scripting.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VYGE\src\RenderCache.cpp">
+    <ClCompile Include="..\..\..\Code\Engine\SoundSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VYGE\src\SceneManager.cpp">
+    <ClCompile Include="..\..\..\Code\Engine\SpawnerObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VYGE\src\SceneObject.cpp">
+    <ClCompile Include="..\..\..\Code\Engine\State.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VYGE\src\Scripting.cpp">
+    <ClCompile Include="..\..\..\Code\Engine\ViewFrustum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VYGE\src\SoundSystem.cpp">
+    <ClCompile Include="..\..\..\Code\Engine\AnimatedObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VYGE\src\SpawnerObject.cpp">
+    <ClCompile Include="..\..\..\Code\Engine\BoundingVolume.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VYGE\src\State.cpp">
+    <ClCompile Include="..\..\..\Code\Engine\DeviceEnumeration.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VYGE\src\ViewFrustum.cpp">
+    <ClCompile Include="..\..\..\Code\Engine\Engine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
