@@ -1,4 +1,10 @@
+[![Code quality][codacy-svg]][codacy]
+
 # VYGE
+
+[codacy-svg]:        https://app.codacy.com/project/badge/Grade/a6117ceba9e64b42b7c0f45d7d7c9669
+
+[codacy]:            https://app.codacy.com/gh/matt77hias/VYGE/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
 
 ## About
 Vaughan Young's Game Engine (VYGE) and FPS game made ready for building on recent Visual Studio 2017.
